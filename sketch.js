@@ -3,6 +3,7 @@ function checkForWinner() {
   var winner
   var playerOne = getPlayerOne() //playerOne is always blue!
     //console.log('checkForWinner, playerOne is: ', playerOne)
+    //comment first commit on tic tac toe 
 var computer = (playerOne === "X") ? "O" : "X"
 //there are 8 winningCombos: 
   //three rows, three columns, two diagonals
